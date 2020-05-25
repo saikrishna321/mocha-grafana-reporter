@@ -1,5 +1,5 @@
 {
-  "name": "mocha-graphana-reporter",
+  "name": "mocha-grafana-reporter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
