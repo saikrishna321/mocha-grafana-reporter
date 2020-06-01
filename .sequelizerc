@@ -1,0 +1,9 @@
+const path = require('path')
+console.log(`INFO: Processing .sequelizerc for Environment:[${process.env.NODE_ENV}]`)
+
+module.exports = {
+  config: path.resolve('./database/config', 'config.js'),
+  'models-path': path.resolve('./database/models'),
+  'seeders-path': path.resolve('./database/seeders'),
+  'migrations-path': path.resolve('./database/migrations'),
+}

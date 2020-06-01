@@ -1,11 +1,34 @@
 {
   "name": "mocha-grafana-reporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "library to visualize test results in grafana using mocha framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "team",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikrishna321/mocha-grafana-reporter.git"
+  },
+  "keywords": [
+    "javascript",
+    "mocha",
+    "grafana"
+  ],
+  "bugs": {
+    "url": "https://github.com/saikrishna321/mocha-grafana-reporter/issues"
+  },
+  "homepage": "https://github.com/saikrishna321/mocha-grafana-reporter#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.11",
+    "sequelize-cli": "^5.5.1"
+  }
 }
