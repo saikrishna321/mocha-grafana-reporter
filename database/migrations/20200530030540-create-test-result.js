@@ -18,7 +18,7 @@ module.exports = {
       },
       duration: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.STRING
       },
       userId: {
         type: Sequelize.INTEGER,
